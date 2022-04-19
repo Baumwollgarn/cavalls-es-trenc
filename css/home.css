@@ -11,9 +11,11 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     margin: 0;
-    background: #c8d8e4;
+    background: #004900;
+    font-size: 1.1em;
 }
 
 .navigation a {
@@ -23,12 +25,12 @@ header {
     color: white;
 }
 
-.navigation a:hover {
-    background: #2b6777;
+.navigation li:hover {
+    background: #002500;
 }
 
 .active {
-    background: #2b6777;
+    background: #002500;
 }
 
 .navigation ul {
@@ -38,16 +40,21 @@ header {
 .navigation li {
     list-style: none;
     display: inline-flex;
+    height: 85px;
+    align-items: center;
 }
 
 .logo {
-    height: 56px;
+    height: 75px;
     position: relative;
-    left: 10px;
+    left: 25px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .menu-icon > img {
-    width: 56px;
+    width: 85px;
     position: relative;
     right: 10px;
     height: auto;
@@ -79,4 +86,24 @@ header {
     .menu-list {
         display: flex;
     }
+}
+
+.title-name {
+    color: #b9922f;
+    font-family: 'Antic-Didone', open-sans, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.welcome {
+    width: 500px;
+    position: relative;
+    left: 50px;
+    border: solid 3px #AAAE7F;
+    border-radius: 10px;
+    background-color: #D0D6B3;
+}
+
+.welcome > * {
+    padding: 10px;
 }
