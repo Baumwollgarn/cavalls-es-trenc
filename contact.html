@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacte - Cavalls es trenc</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<?php include 'header.php'; ?>
+
+<header>
+    <nav class="navigation">
+        <img src="img.png" alt="logo"
+             class="logo">
+        <h2 class="title-name">CAVALLS ES TRENC</h2>
+        <ul class="menu-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="">Comprar</a></li>
+            <li><a href="">Vendre</a></li>
+            <li class="active"><a href="">Contacte</a></li>
+            <li><a href="">Sobre nosaltres</a></li>
+        </ul>
+        <div class="menu-icon">
+            <img src="https://pixsector.com/cache/f5c37214/av089223b78f583a8e8d6.png" alt="menu icon"
+                 onclick="toggleMenu()">
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="contact-form">
+        <h2 class="contact-title">Contacte</h2>
+        <form action="" method="post" class="form-all">
+            <div class="form-group">
+                <i class="fa fa-user icon"></i>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nom">
+            </div>
+            <div class="form-group">
+                <i class="fa fa-envelope icon"></i>
+                <input type="email" name="email" id="email" class="form-control" placeholder="E-Mail">
+            </div>
+            <div class="form-group message">
+                <i class="fa fa-file icon"></i>
+                <textarea name="message" id="message" class="form-control" placeholder="Missatge"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="contact">
+        <div class="contact-title">
+            <h1>Contacte</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-info-title">
+                    <h2>Informació de contacte</h2>
+                </div>
+                <div class="contact-info-content">
+                    <p>
+                        <span>Adreça:</span>
+                        <span>Carrer de la Rambla, 1</span>
+                        <span>08002 Barcelona</span>
+                    </p>
+                    <p>
+                        <span>Telèfon:</span>
+                        <span>934 678 934</span>
+                    </p>
+                    <p>
+                        <span>Email:</span>
+                        <span>Awitt15316@alumnes.iesmanacor.cat</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
