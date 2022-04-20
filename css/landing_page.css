@@ -17,6 +17,9 @@ body {
     min-height: 100vh;
 }
 
+header {
+    display: flex;
+}
 .open {
     /*
     position: fixed;
