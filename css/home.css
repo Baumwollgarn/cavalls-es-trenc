@@ -10,6 +10,12 @@ header {
 body {
     margin: 0;
 }
+
+main {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
 .navigation {
     display: flex;
     flex-flow: row wrap;

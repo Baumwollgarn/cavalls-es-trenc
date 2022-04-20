@@ -17,7 +17,7 @@ footer > * {
 }
 
 .commitment {
-    width: 400px;
+    width: 500px;
 }
 
 .footer {
@@ -36,6 +36,11 @@ footer > * {
     display: block;
     justify-content: space-evenly;
     align-items: baseline;
+    padding: 0;
+}
+
+.footer ul > li {
+    margin-bottom: 2px;
 }
 
 .footer a {

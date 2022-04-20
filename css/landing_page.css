@@ -92,11 +92,13 @@ section {
 .bannerText h2 {
     font-size: 5em;
     animation-delay: 2s;
+    color: white;
 }
 
-.bannerText h3{
+.bannerText h3 {
     font-size: 2.5rem;
     animation-delay: 3s;
+    color: white;
 }
 
 .bannerText h2:before,
@@ -141,6 +143,7 @@ section {
     font-size: 1.2rem;
     animation: fadeIn 1s linear forwards;
     animation-delay: 5s;
+    color: white;
 }
 
 @keyframes fadeIn {
@@ -188,3 +191,19 @@ section {
     animation-delay: 6s;
     height: 450px;
 }
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+#videobcg {
+    width: inherit;
+    height: inherit;
+    filter: blur(15px);
+    object-fit: cover;
+    transform: scale(1.06);
+}
+
