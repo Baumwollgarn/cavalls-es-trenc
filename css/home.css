@@ -93,6 +93,7 @@ header {
     font-family: 'Antic-Didone', open-sans, sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
+
 }
 
 .welcome {
@@ -106,4 +107,56 @@ header {
 
 .welcome > * {
     padding: 10px;
+}
+
+table.envio {
+    background-color: #EEEEEE;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.envio td, table.envio th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.envio tbody td {
+    font-size: 13px;
+}
+table.envio tr:nth-child(even) {
+    background: #dfe5a9;
+}
+table.envio thead {
+    background: #004900;
+    border-bottom: 2px solid #444444;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+table.envio thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+}
+table.envio thead th:first-child {
+    border-left: none;
+}
+
+table.envio tfoot {
+    font-size: 8px;
+    font-weight: bold;
+    color: #000;
+    background: #dfe5a9;
+    border-top: 2px solid #444444;
+}
+table.envio tfoot td {
+    font-size: 13px;
+}
+table.envio tfoot .links {
+    text-align: right;
+}
+
+.section > * {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
