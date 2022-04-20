@@ -1,12 +1,103 @@
 footer {
-    background-color: #510D0A;
-    display: flex;
+    background-color: rgb(56, 44, 44);
+    display: block;
     justify-content: flex-end;
     align-items: baseline;
     color: white;
     font-size: 0.7em;
+    padding-bottom: 30px;
 }
 
 footer > * {
     padding: 10px;
+}
+
+.newsletter {
+    width: 500px;
+}
+
+.commitment {
+    width: 400px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer > * {
+    margin: 20px;
+}
+
+.footer ul {
+    width: 200px;
+    list-style-type: none;
+    display: block;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.footer a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.submit {
+    width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #505050;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+
+    transition: 250ms;
+}
+
+.newsletter > form > input[type="email"] {
+    width: 250px;
+}
+
+.submit:hover {
+    transition: 500ms;
+    width: 160px;
+    height: 30px;
+
+    background: #AAAE7F;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px lightgreen;
+    text-shadow: none;
+}
+
+.address{
+    padding: 0;
+}
+.address > * {
+    text-align: center;
+    font-size: 20px;
+}
+
+.address > p > a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.copyright > a {
+    color: lightblue;
+    text-decoration: none;
 }

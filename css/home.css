@@ -7,6 +7,9 @@ header {
     margin-bottom: 50px;
 }
 
+body {
+    margin: 0;
+}
 .navigation {
     display: flex;
     flex-flow: row wrap;
