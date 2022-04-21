@@ -6,19 +6,34 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
 <header>
-    <nav class="navigation">
-        <img src="img.png" alt="logo"
-             class="logo">
-        <h2 class="title-name">CAVALLS ES TRENC</h2>
-        <ul class="menu-list">
-            <li class="active"><a href="home.html">Home</a></li>
-            <li><a href="buy.html">Comprar</a></li>
-            <li><a href="">Vendre</a></li>
-            <li><a href="contact.html">Contacte</a></li>
-            <li><a href="">Sobre nosaltres</a></li>
+    <nav class="navigation header-main">
+        <div class="flex">
+            <img src="img.png" alt="logo"
+                 class="logo">
+            <h2 class="title-name">CAVALLS ES TRENC</h2>
+        </div>
+        <div class="flex misc">
+            <div>
+                <button class="button-misc">CAT</button>
+            </div>
+            <div><a href="" class="a-misc">Registra't</a></div>
+            <div><a href="" class="a-misc">Iniciar sessió</a></div>
+
+        </div>
+    </nav>
+    <nav class="navigation header-bottom">
+        <ul class="menu-list nav-links">
+            <li class="active"><a href="home.html"><span><i class="fa fa-home icon"></i></span><span>Home</span></a>
+            </li>
+            <li><a href="buy.html"><span><i class="fa fa-store icon"></i></span><span>Comprar</span></a></li>
+            <li><a href=""><span><i class="fa fa-money-bill icon"></i></span><span>Vendre</span></a></li>
+            <li><a href="contact.html"><span><i class="fa fa-id-badge icon"></i></span><span>Contacte</span></a></li>
+            <li><a href="" class="about-us"><span><i class="fa fa-user icon"></i></span><span>La empresa</span></a></li>
         </ul>
         <div class="menu-icon">
             <img src="https://pixsector.com/cache/f5c37214/av089223b78f583a8e8d6.png" alt="menu icon"
@@ -28,12 +43,14 @@
 </header>
 <main>
     <div class="welcome">
-        <h3>Benvinguts al nostre mercat!</h3>
-        <p>
-            Aquí podràs trobar els cavalls que vols, però també pots vendre els teus cavalls. En cas de que no trobessis
-            el que vols, pots fer una oferta directament
-            pel formulari de contacte.
-        </p>
+        <div class="welcome-text">
+            <h1>Cerques un cavall? Nosaltres segurament tindrem un que et pugui interessar!</h1>
+            <p>
+                Registra't i aprofita: Aconsegueix un descompte de 10% per la teva primera compra! Només et fa falta
+                crear un compte!
+            </p>
+            <button style="width: 200px" class="a-misc">Registra't</button>
+        </div>
     </div>
 
     <div class="section">

@@ -11,16 +11,29 @@
 </head>
 <body>
 <header>
-    <nav class="navigation">
-        <img src="img.png" alt="logo"
-             class="logo">
-        <h2 class="title-name">CAVALLS ES TRENC</h2>
-        <ul class="menu-list">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="buy.html">Comprar</a></li>
-            <li><a href="">Vendre</a></li>
-            <li class="active"><a href="">Contacte</a></li>
-            <li><a href="">Sobre nosaltres</a></li>
+    <nav class="navigation header-main">
+        <div class="flex">
+            <img src="img.png" alt="logo"
+                 class="logo">
+            <h2 class="title-name">CAVALLS ES TRENC</h2>
+        </div>
+        <div class="flex misc">
+            <div>
+                <button class="button-misc">CAT</button>
+            </div>
+            <div><a href="" class="a-misc">Registra't</a></div>
+            <div><a href="" class="a-misc">Iniciar sessió</a></div>
+
+        </div>
+    </nav>
+    <nav class="navigation header-bottom">
+        <ul class="menu-list nav-links">
+            <li><a href="home.html"><span><i class="fa fa-home icon"></i></span><span>Home</span></a></li>
+            <li><a href="buy.html"><span><i class="fa fa-store icon"></i></span><span>Comprar</span></a></li>
+            <li><a href=""><span><i class="fa fa-money-bill icon"></i></span><span>Vendre</span></a></li>
+            <li class="active"><a href="contact.html"><span><i
+                    class="fa fa-id-badge icon"></i></span><span>Contacte</span></a></li>
+            <li><a href="" class="about-us"><span><i class="fa fa-user icon"></i></span><span>La empresa</span></a></li>
         </ul>
         <div class="menu-icon">
             <img src="https://pixsector.com/cache/f5c37214/av089223b78f583a8e8d6.png" alt="menu icon"
@@ -33,15 +46,15 @@
         <h2 class="contact-title">Contacte</h2>
         <form action="" method="post" class="form-all">
             <div class="form-group">
-                <i class="fa fa-user icon"></i>
+                <i class="fa fa-user icon-form"></i>
                 <input type="text" name="name" id="name" class="form-control" placeholder="Nom">
             </div>
             <div class="form-group">
-                <i class="fa fa-envelope icon"></i>
+                <i class="fa fa-envelope icon-form"></i>
                 <input type="email" name="email" id="email" class="form-control" placeholder="E-Mail">
             </div>
             <div class="form-group message">
-                <i class="fa fa-file icon"></i>
+                <i class="fa fa-file icon-form"></i>
                 <textarea name="message" id="message" class="form-control" placeholder="Missatge"></textarea>
             </div>
             <div class="form-group">
