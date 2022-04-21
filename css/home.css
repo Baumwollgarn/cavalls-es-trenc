@@ -243,6 +243,7 @@ table.envio tfoot .links {
 .nav-links > li {
     border-radius: 999px;
     height: 50px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
