@@ -166,6 +166,19 @@ table.envio tfoot .links {
     text-align: right;
 }
 
+.section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.envio {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .section > * {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -237,8 +250,16 @@ table.envio tfoot .links {
     margin-left: 25px;
     margin-right: 25px;
     width: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome-text {
     padding: 40px;
+}
+
+.sticky {
+    position: sticky;
+    top: 25px;
+    align-self: flex-start;
 }

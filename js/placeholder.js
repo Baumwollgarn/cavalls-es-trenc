@@ -33,3 +33,13 @@ function createOffer(data) {
 let generatePrice = () => {
     return Math.floor(Math.random() * (1000 - 10) + 10);
 }
+
+let parent = document.querySelector('.sticky').parentElement;
+
+while (parent) {
+    const hasOverflow = getComputedStyle(parent).overflow;
+    if (hasOverflow !== 'visible') {
+        console.log(hasOverflow, parent);
+    }
+    parent = parent.parentElement;
+}

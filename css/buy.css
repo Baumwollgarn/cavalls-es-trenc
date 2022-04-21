@@ -1,22 +1,21 @@
 main {
     display: flex;
-    justify-content: space-around;
 }
-
 .offers {
     display: flex;
-    width: 100%;
-    margin-right: 35px;
-    margin-left: 35px;
     justify-content: space-around;
+    width: 85%;
 }
 
 .filters {
-    max-width: 25%;
-    position: absolute;
-    top: 250px;
-    right: 100px;
-    display: none;
+    width: 15%;
+    margin: 0 0 0 10px;
+}
+
+.filters > ul > li {
+    list-style: none;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .offer-card {
@@ -34,8 +33,7 @@ main {
 
 @media (min-width: 700px) {
     .offers {
-        margin-left: 75px;
-        margin-right: 75px;
+        flex-direction: row;
     }
 
     .offer-card {
@@ -79,4 +77,13 @@ main {
     font-weight: bold;
     color: #014401;
     position: relative;
+}
+
+.filters-list {
+    padding: 0;
+}
+
+.filters-list > li > a {
+    text-decoration: none;
+    color: darkgoldenrod;
 }
