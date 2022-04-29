@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home - Cavalls es trenc</title>
+    <title>Registre - Cavalls es trenc</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/footer.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
 </head>
 <body>
 <header>
@@ -28,7 +27,7 @@
     </nav>
     <nav class="navigation header-bottom">
         <ul class="menu-list nav-links">
-            <li class="active"><a href="home.html"><span><i class="fa fa-home icon"></i></span><span>Home</span></a>
+            <li><a href="home.html"><span><i class="fa fa-home icon"></i></span><span>Home</span></a>
             </li>
             <li><a href="buy.html"><span><i class="fa fa-store icon"></i></span><span>Comprar</span></a></li>
             <li><a href="sell.html"><span><i class="fa fa-money-bill icon"></i></span><span>Vendre</span></a></li>
@@ -43,91 +42,30 @@
     </nav>
 </header>
 <main>
-    <div class="welcome">
-        <div class="welcome-text">
-            <h1>Cerques un cavall? Nosaltres segurament tindrem un que et pugui interessar!</h1>
-            <p>
-                Registra't i aprofita: Aconsegueix un descompte de 10% per la teva primera compra! Només et fa falta
-                crear un compte!
-            </p>
-            <button style="width: 200px" class="a-misc">Registra't</button>
+    <div class="flex">
+        <div class="register-form">
+            <h1>Registre d'una compte nova</h1>
+            <form action="register.php" method="post">
+                <div class="flex">
+                    <label for="username">Nom d'usuari</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="flex">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="flex">
+                    <label for="password">Contrasenya</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="flex">
+                    <label for="password2">Repeteix la contrasenya</label>
+                    <input type="password" name="password2" id="password2" required>
+                </div>
+            </form>
         </div>
     </div>
-    <div class="whitespace img2"></div>
-    <div class="section">
-        <h3>Gastos de envio</h3>
-        <div>
-            <table class="envio">
-                <thead>
-                <tr>
-                    <th>Tipus de enviament</th>
-                    <th>Transportista</th>
-                    <th>Zona 1</th>
-                    <th>Zona 2</th>
-                    <th>Zona 3</th>
-                </tr>
-                </thead>
-                <tr>
-                    <td>Enviament normal</td>
-                    <td>SEUR</td>
-                    <td>120,-€</td>
-                    <td>140,-€</td>
-                    <td>169,-€</td>
-                </tr>
-                <tr>
-                    <td>Enviament express (48 h)</td>
-                    <td>DHL</td>
-                    <td>230,-€</td>
-                    <td>259,-€</td>
-                    <td>299,-€</td>
-                </tr>
-                <tr>
-                    <td>Enviament súper express (24 h)</td>
-                    <td>UPS</td>
-                    <td>469,-€</td>
-                    <td>519,-€</td>
-                    <td>729,-€</td>
-                </tr>
-                <tfoot>
-                <tr>
-                    <td colspan="5">
-                        <p>
-                            <strong>Nota:</strong>
-                            Els preus es mostren sense impostos.
-                        </p>
-                    </td>
-                </tr>
-                </tfoot>
-            </table>
-        </div>
-        <div class="">
-            <table class="envio">
-                <thead>
-                <tr>
-                    <th>Zona</th>
-                    <th>Països</th>
-                </tr>
-                </thead>
-                <tr>
-                    <td>Zona 1</td>
-                    <td>Reign Unit, Espanya, Noruegia, Francia, Italia, Holanda, Suècia, Suiza, Alemanya, Polònia,</td>
-                </tr>
-                <tr>
-                    <td>Zona 2</td>
-                    <td>Estats Units, Brasil, Chile, Perú</td>
-                </tr>
-                <tr>
-                    <td>Zona 3</td>
-                    <td>Singapur, Japó, Xina, Corea del sur, Filipines</td>
-                </tr>
-
-
-            </table>
-        </div>
-    </div>
-    <div class="whitespace img1"></div>
 </main>
-
 <footer>
     <div class="footer">
         <div class="newsletter">
@@ -163,9 +101,10 @@
     </div>
 
     <div class="address">
-            <p>
-                <strong>Cavalls es trenc</strong> · C/ La Rambla, 1  · 07690 Campos · <a href="tel:+34644226231">+34 644 226 231</a>
-            </p>
+        <p>
+            <strong>Cavalls es trenc</strong> · C/ La Rambla, 1 · 07690 Campos · <a href="tel:+34644226231">+34 644 226
+            231</a>
+        </p>
     </div>
     <div class="copyright">
         <a href="privacy.html">Política de privacitat</a> ·
@@ -173,6 +112,6 @@
         &copy; Cavalls es trenc - 2022 tots els drets reservats
     </div>
 </footer>
-<script src="js/placeholder.js"></script>
+
 </body>
 </html>
