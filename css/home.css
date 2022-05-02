@@ -102,11 +102,6 @@ body {
 
 }
 
-main {
-    background-color: transparent;
-    overflow: auto;
-}
-
 .welcome {
     left: 50px;
     border: solid 3px #AAAE7F;
