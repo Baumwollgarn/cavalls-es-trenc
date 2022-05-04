@@ -49,15 +49,14 @@
     </div>
 
     <div class="contact-form form-contact sell ">
-        <h2 class="contact-title sell-header">Vendre el meu cavall</h2>
         <form action="" method="post" class="form-all">
             <div class="form-group">
                 <i class="fa fa-user icon-form"></i>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Nom del cavall">
+                <input type="text" name="name" id="name" class="form-control" required placeholder="Nom del cavall">
             </div>
             <div class="form-group">
                 <i class="fa fa-horse icon-form"></i>
-                <input list="races" name="email" id="race" class="form-control" placeholder="Raça">
+                <input list="races" name="email" id="race" class="form-control" required placeholder="Raça">
                 <datalist id="races">
                     <option value="Pura Raza Española (PRE)">
                     <option value="Pura Sangre Ingles (PSI)">
@@ -74,27 +73,27 @@
             <div class="form-group message">
                 <i class="fa-solid fa-arrow-up-9-1 icon-form"></i>
                 <input type="number" name="height" id="height" class="form-control" placeholder="Altura en centimetres"
-                       required></input>
+                       required>
             </div>
             <div class="form-group">
                 <i class="fa fa-money-bill icon-form"></i>
                 <input type="number" min="0" name="price" id="price" class="form-control" required
-                       placeholder="Preu estimat en Euro"></input>
+                       placeholder="Preu estimat en Euro">
             </div>
             <div class="form-group">
                 <i class="fa fa-map-marker icon-form"></i>
                 <input type="text" name="location" id="location" class="form-control" required
-                       placeholder="Localització"></input>
+                       placeholder="Localització">
             </div>
             <div class="form-group">
                 <i class="fa fa-phone icon-form"></i>
                 <input type="number" name="phone" id="phone" class="form-control" required
-                       placeholder="Telèfon"></input>
+                       placeholder="Telèfon">
             </div>
             <div class="form-group">
                 <i class="fa fa-envelope icon-form"></i>
                 <input type="email" name="email" id="email" class="form-control" required
-                       placeholder="Correu electrònic"></input>
+                       placeholder="Correu electrònic">
             </div>
             <div class="form-group">
                 <i class="fa fa-comment icon-form"></i>
@@ -104,7 +103,7 @@
             <div class="form-group">
                 <i class="fa fa-image icon-form"></i>
                 <input type="file" name="image" id="image" multiple class="form-control"
-                       placeholder="Imatges del cavall" required accept="image/*"></input>
+                       placeholder="Imatges del cavall" required accept="image/*">
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar" class="btn btn-primary">
