@@ -48,56 +48,71 @@
         <p>En aquest formulari podeu posar totes les dades que hi han d'aparèixer a l'oferta que voleu obrir </p>
     </div>
 
-    <div class="contact-form form-contact ">
-        <h2 class="contact-title">Contacte</h2>
+    <div class="contact-form form-contact sell ">
+        <h2 class="contact-title sell-header">Vendre el meu cavall</h2>
         <form action="" method="post" class="form-all">
             <div class="form-group">
                 <i class="fa fa-user icon-form"></i>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Nom">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nom del cavall">
+            </div>
+            <div class="form-group">
+                <i class="fa fa-horse icon-form"></i>
+                <input list="races" name="email" id="race" class="form-control" placeholder="Raça">
+                <datalist id="races">
+                    <option value="Pura Raza Española (PRE)">
+                    <option value="Pura Sangre Ingles (PSI)">
+                    <option value="Pura Raza Árabe (PRA)">
+                    <option value="Quarter Horse">
+                    <option value="Anglo-Árabe">
+                    <option value="Tennessee Walking">
+                    <option value="Apalusa">
+                    <option value="Morgan">
+                    <option value="Paint Horse">
+                    <option value="Poni">
+                </datalist>
+            </div>
+            <div class="form-group message">
+                <i class="fa-solid fa-arrow-up-9-1 icon-form"></i>
+                <input type="number" name="height" id="height" class="form-control" placeholder="Altura en centimetres"
+                       required></input>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-money-bill icon-form"></i>
+                <input type="number" min="0" name="price" id="price" class="form-control" required
+                       placeholder="Preu estimat en Euro"></input>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-map-marker icon-form"></i>
+                <input type="text" name="location" id="location" class="form-control" required
+                       placeholder="Localització"></input>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-phone icon-form"></i>
+                <input type="number" name="phone" id="phone" class="form-control" required
+                       placeholder="Telèfon"></input>
             </div>
             <div class="form-group">
                 <i class="fa fa-envelope icon-form"></i>
-                <input type="email" name="email" id="email" class="form-control" placeholder="E-Mail">
+                <input type="email" name="email" id="email" class="form-control" required
+                       placeholder="Correu electrònic"></input>
             </div>
-            <div class="form-group message">
-                <i class="fa fa-file icon-form"></i>
-                <textarea name="message" id="message" class="form-control" placeholder="Missatge"></textarea>
+            <div class="form-group">
+                <i class="fa fa-comment icon-form"></i>
+                <textarea name="message" rows=5 id="message" class="form-control" required
+                          placeholder="Descripció"></textarea>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-image icon-form"></i>
+                <input type="file" name="image" id="image" multiple class="form-control"
+                       placeholder="Imatges del cavall" required accept="image/*"></input>
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar" class="btn btn-primary">
             </div>
-        </form>
-    </div>
-    <div class="sell-form">
-        <form action="">
-            <fieldset class="sell-fieldset">
-                <legend>Detalls del cavall</legend>
-                <div class="sell-input">
-                    <label for="nameHorse">Nom del cavall
-                        <input type="text" id="nameHorse">
-                    </label>
-                </div>
-                <div class="sell-input">
-                    <label for="breed">Raca
-                        <select id="breed" name="breed">
-                            <option value="">Seleccioni una raça</option>
-                            <option value="PRE">Pura Raza Española (PRE)</option>
-                            <option value="PSI">Pura Sangre Ingles (PSI)</option>
-                            <option value="PRA">Pura Raza Arabe (PRA)</option>
-                            <option value="QH">Quarter Horse</option>
-                            <option value="FRI">Frisón</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="sell-input">
-                    <label for="breedsd">Raca
-                        <input type="text" id="breedsd">
-                    </label>
-                </div>
-                <div class="sell-input">
+            <div class="form-group">
+                <input type="reset" value="Esborrar" class="btn btn-primary btn-reset">
+            </div>
 
-                </div>
-            </fieldset>
         </form>
     </div>
 
@@ -149,5 +164,7 @@
     </div>
 </footer>
 <script src="js/placeholder.js"></script>
+<script src="https://kit.fontawesome.com/08e234a004.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

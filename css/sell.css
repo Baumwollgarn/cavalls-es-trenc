@@ -1,0 +1,23 @@
+.btn-reset {
+    background-color: rgba(255, 55, 0, 0.5) !important;
+}
+
+.sell {
+    width: 550px !important;
+}
+
+.sell-header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+body {
+    background-image: url("../images/background-1430103.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
