@@ -18,7 +18,7 @@ function createOffer(data) {
     cardContent.innerHTML += 
         
             `<div class="offer-card">
-            <img src="https://picsum.photos/seed/${data.id + data.name + 10}/500/500" alt="photo">
+            <img src="https://picsum.photos/seed/${data.id + data.name + 12}/500/500" alt="photo">
             <h1>${data.name}</h1>
             <p>${data.email}</p>
             <p>${data.phone}</p>
