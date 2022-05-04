@@ -109,6 +109,7 @@ body {
     color: white;
     margin-left: 35px;
     margin-right: 35px;
+    margin-bottom: 35px;
 }
 
 .welcome > * {
@@ -239,7 +240,7 @@ table.envio tfoot .links {
     margin-left: 25px;
     height: 50px;
     align-items: center;
-    background-color: darkolivegreen;
+    background-color: #c7942b;
 }
 
 .icon {

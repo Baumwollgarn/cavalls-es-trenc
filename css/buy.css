@@ -88,3 +88,12 @@ main {
     text-decoration: none;
     color: darkgoldenrod;
 }
+
+body {
+    background-image: url("../images/plant-2004483_1920.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}

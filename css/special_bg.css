@@ -1,0 +1,8 @@
+body {
+    background: rgb(170, 174, 127);
+    background: linear-gradient(0deg, rgba(170, 174, 127, 1) 30%, rgba(0, 73, 0, 1) 50%);
+}
+
+.welcome {
+    background-color: rgb(75, 129, 38);
+}
