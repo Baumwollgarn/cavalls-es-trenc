@@ -66,14 +66,13 @@ footer > * {
     transition: 250ms;
 }
 
-.newsletter > form > input[type="email"] {
+input[type="email"] {
     width: 250px;
 }
 
 .submit:hover {
     transition: 500ms;
-    width: 160px;
-    height: 30px;
+    transform: scaleX(1.1) scaleY(1.1);
 
     background: #AAAE7F;
     color: #fff;
